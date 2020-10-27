@@ -15,7 +15,7 @@ pool:
 steps:
 - script: npm install browserstack-local
 - script: npm install selenium-webdriver
-- script: npm instal request
+- script: npm install request
 - task: BrowserStackConfig@0
   inputs:
     BrowserStackServiceEndPoint: 'Local_connection'
