@@ -31,6 +31,12 @@ steps:
 - script: node pac_check.js
 - task: BrowserStackStopLocal@0
 
+# - task: BrowserStackConfig@0
+#   inputs:
+#     BrowserStackServiceEndPoint: 'Local_connection'
+#     browserstackLocal: true
+#     bsLocalOptions: 'forceLocal':"true"
+
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
