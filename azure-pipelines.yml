@@ -13,6 +13,8 @@ pool:
 
 
 steps:
+- script: npm install browserstack-local
+- script: npm install selenium-webdriver
 - task: BrowserStackConfig@0
   inputs:
     BrowserStackServiceEndPoint: 'Local_connection'
@@ -20,8 +22,7 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 - script: npm install
-- script: npm install browserstack-local
-- script: npm install selenium-webdriver
+
 # - script: export BROWSERSTACK_USERNAME=$BROWS
 # - script: export BROWSERSTACK_ACCESS_KEY="your_access_key"
 - script: node sampleMob.js
