@@ -19,7 +19,7 @@ steps:
 - script: npm install
 - script: npm install browserstack-local
 - script: npm install selenium-webdriver
-# - script: export BROWSERSTACK_USERNAME="your_username"
+# - script: export BROWSERSTACK_USERNAME=$BROWS
 # - script: export BROWSERSTACK_ACCESS_KEY="your_access_key"
 - script: node sampleMob.js
 - script: node pac_check.js
