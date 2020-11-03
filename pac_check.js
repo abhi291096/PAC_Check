@@ -13,7 +13,7 @@ var capabilities = {
 "browserName" : "Chrome", 
 "browserVersion" : "70.0", 
 //  "build":"AM_Check1",
-"build": build1 + "_AM_Build",
+"build": build1,
 "os" : "Windows", 
 "os_version" : "10", 
  'browserstack.user' : username,
